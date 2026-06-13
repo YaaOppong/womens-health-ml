@@ -1,0 +1,7 @@
+wom-health/
+__pycache__/
+*.pyc
+data/
+notebooks/
+.ipynb_checkpoints/
+.DS_Store
