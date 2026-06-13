@@ -22,7 +22,7 @@ symptoms predict hormonally-defined menstrual cycle phase.
 ## Install
 
 ```
-git clone <repo>
+git clone https://github.com/YaaOppong/womens-health-ml.git
 pip install -r requirements.txt
 ```
 
