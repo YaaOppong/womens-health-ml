@@ -213,8 +213,7 @@ results/          committed: aggregate metrics and figures only
 
 Lin B, Li JY, Kalani K, Truong K, Mariakakis A. mcPHASES: A Dataset of Physiological, Hormonal,
 and Self-Reported Events and Symptoms for Menstrual Health Tracking with Wearables (version
-1.0.0). PhysioNet (2025). https://physionet.org/content/mcphases/  *(verify author list and the
-companion Scientific Data 2026 article against the source before publishing)*
+1.0.0). PhysioNet (2025). https://physionet.org/content/mcphases/ 
 
 Specht B, EL-Khozondar M, Garbaya S, Schneider R, Khadraoui D, Tayeb Z. Self-Reported Symptoms
 Enable Four-Phase Menstrual Cycle Classification with Hormonally Validated Labels. medRxiv (2026).
