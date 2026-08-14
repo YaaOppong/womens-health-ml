@@ -16,8 +16,8 @@ symptoms predict hormonally-defined menstrual cycle phase.
   it, which points to a within-person rather than cross-person signal.
 - **Product implication.** For phase classification on consumer-grade wearables, a simple cycle
   calendar outperforms passive sensor fusion. Where wearables could add value, resolving the
-  cycle-to-cycle timing variability the calendar misses, likely needs per-user personalisation, more cycles per user, 
-  richer sensors, or temporal models.
+  cycle-to-cycle timing variability the calendar misses, likely needs per-user personalisation,
+  more cycles per user, richer sensors, or temporal models.
 
 ## Install
 
@@ -81,8 +81,7 @@ were logged only in 2022, which constrains the experiment design below.
 ### Feature engineering
 
 The modelling used a compact, physiologically-motivated set rather than an exhaustive
-cross-product, to avoid overfitting under
-leave-one-subject-out. Three channels were defined:
+cross-product, to avoid overfitting under leave-one-subject-out. Three channels were defined:
 
 - **Cycle timing**: days since the most recent bleeding day (flow greater than spotting),
   derived from self-reported flow and available only for 2022. This is a self-report-derived
@@ -135,7 +134,7 @@ with each other (0.416), still far below cycle day.
 | 2024 | 0.306 | 0.225 | 0.359 | 1,796 |
 
 
-![caption](results/fig_metrics_factorial_2022.png)
+![Macro-F1, Fertility-phase F1 and accuracy for each channel combination in the 2022 factorial, showing cycle day alone as the strongest model.](results/fig_metrics_factorial_2022.png)
 
 The physiological signal is weak but consistent across two independent periods, and pooling
 both does not exceed 2022 alone.
@@ -213,7 +212,7 @@ results/          committed: aggregate metrics and figures only
 
 Lin B, Li JY, Kalani K, Truong K, Mariakakis A. mcPHASES: A Dataset of Physiological, Hormonal,
 and Self-Reported Events and Symptoms for Menstrual Health Tracking with Wearables (version
-1.0.0). PhysioNet (2025). https://physionet.org/content/mcphases/ 
+1.0.0). PhysioNet (2025). https://doi.org/10.13026/zx6a-2c81
 
 Specht B, EL-Khozondar M, Garbaya S, Schneider R, Khadraoui D, Tayeb Z. Self-Reported Symptoms
 Enable Four-Phase Menstrual Cycle Classification with Hormonally Validated Labels. medRxiv (2026).
